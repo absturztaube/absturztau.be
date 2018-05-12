@@ -1,0 +1,48 @@
+#patterns table {
+  font-family: monospace;
+  font-size: x-small;
+  border: 2px solid green;
+  border-collapse: collapse;
+  background-color: black;
+  color: white;
+}
+
+#patterns table tr th {
+  text-align: right;
+  border: 2px solid green;
+}
+
+#patterns table tr td {
+  text-align: right;
+}
+
+td.note {
+  border-left: 2px solid green;
+}
+
+/* colors from MilkyTracker */
+tr.row-0 td.row-num { color: yellow; }
+tr.row-4 td.row-num { color: yellow; }
+.col-1 { color: cyan; }
+.col-2 { color: lime; }
+.col-3 { color: magenta; }
+.col-4 { color: yellow; }
+
+#row-highlight {
+  border: 0px solid;
+  background-color: rgba(0,128,0,0.4);
+}
+
+/* beat row background highlights (not from MilkyTracker) */
+tr.row-0 { background: rgb(31,31,63); }
+tr.row-4 { background: rgb(15,15,31); }
+
+rect {
+  fill: white;
+  stroke: blue;
+}
+
+path {
+  fill: none;
+  stroke: black;
+}
