@@ -1,0 +1,74 @@
+body {
+	background-color: black;
+	color: green;
+	text-align: center;
+}
+
+.face {
+	display: inline-block;
+}
+
+.face>span {
+	display:block;
+	line-height:18px; 
+	font-size: 16px; 
+	letter-spacing:-1px; 
+	font-weight:bold;
+	font-family: monospace;
+	white-space:pre;
+	color: black; 
+	background: white;
+	width: 531px;
+}
+
+.title {
+	text-align: center;
+}
+
+#song {
+	text-align: left;
+	font-size: 10px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	height: 100%;	
+}
+
+#pattern-order-table {
+	display: none;
+}
+
+#patterns {
+	overflow-y: hidden;
+	overflow-x: hidden;
+	height: 400px;
+	border-top: 2px solid green;
+	border-bottom: 2px solid green;
+	border-right: 2px solid green;
+}
+
+#patterns button {
+	display: none;
+}
+
+#patterns h3 {
+	display: none;
+}
+
+#row-highlight {
+	position: relative;
+	font-size: small;
+	left: 0px;
+	top: -395px;
+	font-size: 10px;
+	margin-top: -1.5ex;
+	width: 100%;
+	background-color: #002200;
+	height: 14px;
+}
+
+#instruments {
+	display: none;
+}
